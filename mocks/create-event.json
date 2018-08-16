@@ -1,0 +1,13 @@
+{
+  "body": "{\"content\":\"hello world\", \"inProgess\":false}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234",
+      "UserAttributes":[{ 
+		"Name" : "address",
+		"Value": "123 fake address" 
+	}]
+
+    }
+  }
+}

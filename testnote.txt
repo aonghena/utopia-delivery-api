@@ -1,0 +1,25 @@
+npx aws-api-gateway-cli-test \
+--username= 'admin@example.com'\
+--password='Password1' \
+--user-pool-id='us-east-1_uuW6X3OF8' \
+--app-client-id='4fek77v0qbiuu4t04ek8c93ein' \
+--cognito-region='us-east-1' \
+--identity-pool-id='us-east-1:2affb8e8-27be-4655-bc98-9161e1bbedb1' \
+--invoke-url='https://dx9dujl1n7.execute-api.us-east-1.amazonaws.com/prod' \
+--api-gateway-region='us-east-1' \
+--path-template='/utopiaorder' \
+--method='POST' \
+--body='{"content":"hello"}'
+
+npx aws-api-gateway-cli-test \
+--username='admin@example.com' \
+--password='Password1' \
+--user-pool-id='us-east-1_uuW6X3OF8' \
+--app-client-id='4fek77v0qbiuu4t04ek8c93ein' \
+--cognito-region='us-east-1' \
+--identity-pool-id='us-east-1:2affb8e8-27be-4655-bc98-9161e1bbedb1' \
+--invoke-url='https://dx9dujl1n7.execute-api.us-east-1.amazonaws.com/prod' \
+--api-gateway-region='us-east-1' \
+--path-template='/utopia' \
+--method='POST' \
+--body='{"content":"hello world"}'

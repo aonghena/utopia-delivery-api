@@ -1,0 +1,11 @@
+{
+  "body": "{\"content\":\"new world\"}",
+  "pathParameters": {
+    "id": "f5437980-8f6c-11e8-b2d8-9b18999817f1"
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}
